@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    background-color: #fbd30f;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    font-family: $fontFamily;
+}
+
+.logo{
+    font-size: 30px;
+    margin: 15px;
+}
+
+.contactP {
+    font-size: 15px;
+    margin: 23px;
+}
