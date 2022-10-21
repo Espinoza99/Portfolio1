@@ -1,0 +1,26 @@
+.firstSection{
+    background-color: $primaryBg;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.introImg{
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+    display: inline-block;
+    justify-content: center;
+    
+}
+.ulList{
+    list-style: none;
+    font-family: $fontFamily;
+    font-size: 50px;
+    display: block;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.list:hover{
+    color: aliceblue;
+}

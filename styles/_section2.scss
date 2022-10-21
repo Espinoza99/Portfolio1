@@ -1,0 +1,24 @@
+.section2{
+    background-color: $thirdBg;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    font-family: $fontFamily;
+    margin-top: -52px;
+}
+
+.aboutMe{
+   font-size: 30px;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+
+img{
+    height: 100%;
+    width: 100%;
+    margin-top: -30px;
+    display: inline-block;
+    justify-content: center;
+}

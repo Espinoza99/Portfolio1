@@ -1,0 +1,34 @@
+.section3 {
+    background-color: $fourthBg;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    font-family: $fontFamily;
+    margin-top: -52px;
+}
+.skills{
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: $secondaryBg;
+}
+.skillIcons{
+    height: 60vh;
+    width: 100%;
+    
+}
+.icon{
+    height: 90px;
+    width: 90px;
+    margin: 45px;
+}
+
+.thirdImg{
+    height: 39vh;
+    width: 100%;
+    margin-top: -30px;
+    display: inline-block;
+    justify-content: center;
+    
+}
