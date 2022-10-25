@@ -1,3 +1,8 @@
+.head{
+    background-color: antiquewhite;
+}
+
+
 .firstSection{
     background-color: $primaryBg;
     width: 100%;
@@ -12,30 +17,35 @@
     justify-content: center;
     
 }
-.ulList, a{
+.ulList, #bluebutton1, strong{
     text-decoration: none;
     list-style: none;
     font-family: $fontFamily;
-    font-size: 50px;
+    font-size: 30px;
     display: block;
     justify-content: center;
     padding-bottom: 10px;
-}
-.list, a{
-    text-decoration: none;
-    color: black;
-}
-.list:link { text-decoration: none; }
-
-.list:visited{
-    color: #551a8b;
-    text-decoration: none;
+    color: white;
+    width: 100%;
 }
 
-.list:hover{
-    color: aliceblue;
+.list11{
+    text-decoration: none;
+    
 }
 
-.list:active{
-    text-decoration: none;
-}
+#bluebutton1 {
+    
+    top: 327px;
+    left: 650px;
+    height: 70px;
+    width: 240px;
+    border:8px solid lightgray;
+    background-color: black;
+    border-radius: 10px;
+    padding-top: 7px;
+    display:block;
+    padding-bottom: 45px;
+    margin: 2vh 0;
+    
+  }
