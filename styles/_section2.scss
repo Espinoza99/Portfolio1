@@ -6,6 +6,19 @@
     font-family: $fontFamily;
     margin-top: -52px;
 }
+.aboutX{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.x{
+    position: relative;
+    margin-left: 70px;
+    text-decoration: none;
+    color: gray;
+}
 
 .aboutMe{
    font-size: 30px;
