@@ -14,7 +14,7 @@
 .contactP{
     text-decoration: none;
     color: black;
-    margin: 25px 15px;
+    margin: 25px 5px;
 }
 .introImg{
     height: 50%;
@@ -43,18 +43,24 @@
     
 }
 
-#bluebutton1 {
-    
+button {
+    display: none;
     top: 327px;
     left: 650px;
-    height: 70px;
-    width: 240px;
+    height: 69px;
+    width: 199px;
     border:4px solid lightgray;
-    background-color: black;
+    background-color: gray;
     border-radius: 5px;
     padding-top: 7px;
     display:block;
     padding-bottom: 45px;
     margin: 2vh 0;
+    color: aliceblue;
     
+  }
+
+  button:focus{
+    border: 4px solid white;
+    background-color: rgb(160, 158, 158);
   }

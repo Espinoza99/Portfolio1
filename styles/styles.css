@@ -71,7 +71,7 @@ img {
 .contactP {
   text-decoration: none;
   color: black;
-  margin: 25px 15px;
+  margin: 25px 5px;
 }
 
 .introImg {
@@ -99,18 +99,25 @@ img {
   text-decoration: none;
 }
 
-#bluebutton1 {
+button {
+  display: none;
   top: 327px;
   left: 650px;
-  height: 70px;
-  width: 240px;
+  height: 69px;
+  width: 199px;
   border: 4px solid lightgray;
-  background-color: black;
+  background-color: gray;
   border-radius: 5px;
   padding-top: 7px;
   display: block;
   padding-bottom: 45px;
   margin: 2vh 0;
+  color: aliceblue;
+}
+
+button:focus {
+  border: 4px solid white;
+  background-color: rgb(160, 158, 158);
 }
 
 .section3 {
@@ -173,23 +180,6 @@ img {
   border-radius: 3px;
 }
 
-@media (min-width: 600px) {
-  .section2, .section3, .section4, .ulList {
-    display: none;
-  }
-  .background1 {
-    background-image: url(https://img.freepik.com/premium-vector/vaporwave-background-disco_102902-3015.jpg?w=2000);
-    background-size: 300%;
-    width: 100%;
-    height: 100%;
-    border: 2px solid;
-    overflow: none;
-    background-repeat: no-repeat;
-  }
-  .firstSection {
-    background-color: transparent;
-  }
-}
 body {
   height: 100%;
   width: 100%;
